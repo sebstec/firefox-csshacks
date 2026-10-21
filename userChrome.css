@@ -53,6 +53,7 @@
   /* opacity: 0 !important; */
 }
 
+/* classic sidebar (sidebar.revamp = false) */
 #sidebar-header {
   font-size: 1.2em !important;
   padding: 2px 6px 2px 3px !important;
@@ -68,3 +69,28 @@
   height: 14px !important;
   opacity: 0.6 !important;
 }
+
+/* revamped sidebar (Firefox 133+) */
+sidebar-panel-header,
+#sidebar-panel-header {
+  display: none !important;
+}
+
+/* remove floating-card look around sidebar panels */
+#sidebar-box {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+#sidebar-box .sidebar-panel,
+#sidebar-box sidebar-panel,
+#sidebar-box #sidebar,
+#sidebar-box #webext-panels-browser {
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  /* only if the corners are clipped by the wrapper */
+  overflow: visible !important;
+}
+
