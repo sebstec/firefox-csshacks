@@ -94,3 +94,21 @@ sidebar-panel-header,
   overflow: visible !important;
 }
 
+
+#sidebar-box {
+  border-color: transparent !important;   /* keep 1px geometry, hide line */
+  border-radius: var(--border-radius-medium) !important;
+  overflow: clip !important;
+}
+
+#sidebar-box,
+#sidebar,
+.sidebar-browser-stack {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+
+/* #sidebar-box      { outline: 2px solid red  !important; } */
+/* #sidebar          { outline: 2px solid lime !important; } */
+/* #sidebar-splitter { outline: 2px solid blue !important; } */
