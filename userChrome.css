@@ -89,7 +89,7 @@ sidebar-panel-header,
 #sidebar-box #webext-panels-browser {
   padding: 0 !important;
   margin: 0 !important;
-  border-radius: 0 !important;
+  /* border-radius: 0 !important; */
   /* only if the corners are clipped by the wrapper */
   overflow: visible !important;
 }
